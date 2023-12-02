@@ -11,7 +11,7 @@ Additionally, tools are provided for scraping the AIR Card website for FBO Locat
 * `fuel.py`: US and CA will only be scraped when specified.
 * `merge-geojson.py`: combine multiple *.json files
 
-These tools are used programmatically in the following script:
+The tools are used programmatically in the following script:
 * `ccx.py`
 
 Requires DAFIF: https://aerodata.nga.mil/AeroDownload/
