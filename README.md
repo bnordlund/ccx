@@ -1,10 +1,10 @@
 # ccx
-CCX Map (Arresting Gear, Contract Fuel, TACAN IAP, WW/SIGMETS, TFR, MTR, SUAS, etc.) for flight planning
+CCX Map (Arresting Gear, Contract Fuel, TACAN IAP, WW/SIGMETS, TFR, MTR, SUAS, etc.) for flight planning.
 
 Several tools are provided for parsing the National Geospatial-Intelligence Agency's (NGA) Defense Aeronautical Flight Information File (DAFIF) into GeoJSON (*.json):
 * `agear.py`: airports with arresting gear
 * `iap.py`: Instrument Approach Procedures (IAP), specifically TACtical Air Navigation (TACAN) 
-* `mtr.py`: Military Training Routes (MTR)
+* `mtr.py` and `mtr_label.py`: Military Training Routes (MTR), depending on the desired file size
 * `suas.py`: Special Use Airspace (SUAS)
 
 Additionally, tools are provided for scraping the AIR Card website for FBO Locator (Contract Fuel) information, correlating to DAFIF, and outputting GeoJSON (*.json). 
