@@ -1,5 +1,5 @@
 # ccx
-CCX Map (Arresting Gear, Contract Fuel, TACAN IAP, WW/SIGMETS, TFR, MTR, SUAS, etc.) for flight planning.
+CCX Map (Arresting Gear, Contract Fuel, TACAN IAP, WW/SIGMETS, TFR, MTR, SUAS, etc.) for flight planning in compliance with law and directives. 
 
 Several tools are provided for parsing the National Geospatial-Intelligence Agency's (NGA) Defense Aeronautical Flight Information File (DAFIF) into GeoJSON (*.json):
 * `agear.py`: airports with arresting gear
